@@ -3,12 +3,6 @@ server:
   
 zuul:
   ignoredServices: '*'
-  host:
-    connect-timeout-millis: 20000
-    socket-timeout-millis: 20000
-    routes:
-      sample-service: # Service to create as sample
-        path: /api/** #path that will be intercepted
-        url: sample-service #which url the request will e mapped to
-        stripPrefix: false  #if zuul should replace the "/api/" segment
-        sensitiveHeaders:
+  routes:
+    path: /api/** #path that will be intercepted
+    url: http://localhost:8090  #host y puerto donde se levanto la API
