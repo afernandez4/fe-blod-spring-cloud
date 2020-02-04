@@ -10,3 +10,4 @@ eureka:
       defaultZone: http://localhost:8761
   server:
     waitTimeInMsWhenSyncEmpty: 0    #wait time for subsequent sync
+    enable-self-preservation: false
