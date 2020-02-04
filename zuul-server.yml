@@ -4,5 +4,6 @@ server:
 zuul:
   ignoredServices: '*'
   routes:
-    path: /api/** #path that will be intercepted
-    url: http://localhost:8090  #host y puerto donde se levanto la API
+    fe-services:
+      path: /api/** #path that will be intercepted
+      url: http://localhost:8090  #host y puerto donde se levanto la API
