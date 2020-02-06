@@ -5,5 +5,5 @@ zuul:
   ignoredServices: '*'
   routes:
     fe-services:
-      path: /google/**
-      url: https://www.google.com/
+      path: /api/**
+      url: http://localhost:8090/
