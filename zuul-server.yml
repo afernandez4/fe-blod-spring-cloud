@@ -2,8 +2,8 @@ server:
   port: 8091 #the default port used for zuul service
   
 zuul:
-  #ignoredServices: '*'
+  ignoredServices: '*'
   routes:
     fe-services:
-      path: /api/** #path that will be intercepted
-      url: http://localhost:8090/ #host y puerto donde se levanto la API
+      path: /google/**
+      url: https://www.google.com/
