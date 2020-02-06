@@ -2,7 +2,7 @@ server:
   port: 8091 #the default port used for zuul service
   
 zuul:
-  ignoredServices: '*'
+  #ignoredServices: '*'
   routes:
     fe-services:
       path: /api/** #path that will be intercepted
