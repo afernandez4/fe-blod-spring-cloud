@@ -6,4 +6,4 @@ zuul:
   routes:
     fe-services:
       path: /api/** #path that will be intercepted
-      url: http://localhost:8090  #host y puerto donde se levanto la API
+      url: http://localhost:8090/ #host y puerto donde se levanto la API
