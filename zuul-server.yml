@@ -8,7 +8,7 @@ zuul:
       path: /api/user/**
       url: http://localhost:8093/api/user
     orders-services:
-      pat: /api/orders/**
+      path: /api/orders/**
       url: http://localhost:8092/api/orders
     fe-services_other_path:
       path: /api/other/**
