@@ -13,5 +13,4 @@ zuul:
     fe-services-users:
       pat: /api/user/**
       url: http://localhost:8093/api/user/persons
-      service-id: USER-SERVICES
-      stripPrefix: false
+      
