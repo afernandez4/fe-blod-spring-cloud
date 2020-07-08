@@ -10,3 +10,6 @@ zuul:
     fe-services_other_path:
       path: /api/other/**
       url: http://localhost:8090/api/cliente
+    fe-services-users:
+      pat: /api/user/**
+      url: http://localhost:8899/api/user
