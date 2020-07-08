@@ -12,4 +12,4 @@ zuul:
       url: http://localhost:8090/api/cliente
     fe-services-users:
       pat: /api/user/**
-      url: http://localhost:8093/api/user
+      url: http://localhost:8093/api/user/persons
