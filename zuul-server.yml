@@ -6,7 +6,7 @@ zuul:
   routes:
     fe-services:
       path: /api/cliente/**
-      url: http://localhost:8090/api/cliente
+      url: http://localhost:8093/api/user
     fe-services_other_path:
       path: /api/other/**
       url: http://localhost:8090/api/cliente
