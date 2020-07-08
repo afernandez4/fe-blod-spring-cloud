@@ -7,10 +7,11 @@ zuul:
     user-services:
       path: /api/user/**
       url: http://localhost:8093/api/user
-    fe-services_other_path:
-      path: /api/other/**
-      url: http://localhost:8090/api/cliente
     order-services:
       pat: /api/orders/**
       url: http://localhost:8092/api/orders
+    fe-services_other_path:
+      path: /api/other/**
+      url: http://localhost:8090/api/cliente
+
       
