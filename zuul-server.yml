@@ -5,7 +5,7 @@ zuul:
   ignoredServices: '*'
   routes:
     fe-services:
-      path: /api/user/**
+      path: /api/user1/**
       url: http://localhost:8093/api/user
     fe-services_other_path:
       path: /api/other/**
