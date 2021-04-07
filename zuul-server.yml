@@ -16,5 +16,8 @@ zuul:
     fe-services_other_path:
       path: /api/other/**
       url: http://localhost:8090/api/cliente
+    demo-service:
+      path: /api/gateway/**
+      url: http://localhost:8090/api/demo
 
       
